@@ -19,7 +19,7 @@ export const Route = createFileRoute("/careers")({
       },
     ],
   }),
-  component: Careers;
+  component: Careers,
 });
 
 const ROLES = [
