@@ -4,7 +4,7 @@ import { useState } from "react";
 import { PageHeader, Section } from "@/components/site/PageHeader";
 import { TOKEN } from "@/lib/token";
 
-type ContactSearch = { role?: string };
+type ContactSearch = { role?: string | undefined };
 
 export const Route = createFileRoute("/contact")({
   validateSearch: (search: Record<string, unknown>): ContactSearch => ({
