@@ -129,14 +129,14 @@ function Contact() {
               <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
                 <li>
                   Desk ·{" "}
-                  <a href="mailto:desk@example.com" className="text-foreground underline">
-                    desk@example.com
+                  <a href="mailto:desk@zec-solana.org" className="text-foreground underline">
+                    desk@zec-solana.org
                   </a>
                 </li>
                 <li>
                   Careers ·{" "}
-                  <a href="mailto:careers@example.com" className="text-foreground underline">
-                    careers@example.com
+                  <a href="mailto:careers@zec-solana.org" className="text-foreground underline">
+                    careers@zec-solana.org
                   </a>
                 </li>
               </ul>
